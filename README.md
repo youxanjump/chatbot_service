@@ -13,7 +13,7 @@ ngrok http 3000
 - 把https的那一行貼到line developer的Webhook URL中(在Messaging API，記得網址後面要加上/linewebhook）
 - 執行程式
 ```bash
-npm start
+npm run start
 ```
 
 ### For Messenger Chatbot
@@ -28,5 +28,5 @@ ngrok http 5000
 - verify token -> 自己隨便設一個，然後把它加到程式裡頭的VERIFY_TOKEN
 - 執行程式
 ```bash
-npm start
+npm run start
 ```
